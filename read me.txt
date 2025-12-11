@@ -1,0 +1,7 @@
+The code is adapted from the open-source GitHub repository [https://github.com/LLMBias/BiasLens].
+
+Compared with the original BiasLens project, the main modification is the removal of the additional prompt templates that distinguish among “Yes/No,” “Choice,” and “Wh” question types, so the model is queried directly with the question itself.
+Other minor adjustments include small changes to the input and output formats to fit this project’s question bank (**question.xlsx**), as well as modifications to input/output paths and output column names.
+
+Model versions used for testing:
+GPT-5.1 (https://openrouter.ai/openai/gpt-5.1) and Llama 4 Maverick 17B Instruct (128E) (https://openrouter.ai/meta-llama/llama-4-maverick).
